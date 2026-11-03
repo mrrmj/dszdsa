@@ -11,8 +11,8 @@ from aiohttp import web
 # ─── CONFIG ─────────────────────────────────────────────────
 @dataclass(frozen=True)
 class Config:
-    token: str = "5837138236:AAFMJPMY8SeXu0CIF-fyywY5M_u3aQm-HiI"
-    chat: str = "-1004472318983"
+    token: str = "8238207738:AAEuPuPyNhf4sr0s9CLzGYOMVxT4hOmz2qs"
+    chat: str = "-1003750007943"
     urls: tuple = ("https://sky-predictor-1012593186417.asia-southeast1.run.app/api/wingo-history-1m-1000",)
     db_path: str = os.getenv("DB_PATH", "predictor_hyper_v19.db")
     port: int = int(os.getenv("PORT", "8080"))
